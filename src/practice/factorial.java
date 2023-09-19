@@ -1,18 +1,19 @@
-class HelloWorld {
-    public int factorial(int num)
+import java.util.*;
+
+class factorial{
+    public int fact(int num)
     {
         if(num>=1)
-            return num*factorial(num-1);
+            return num*fact(num-1);
             else
-            return 0;
+            return 1;
     }
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number");
         int num = sc.nextInt();
-        HelloWorld h = new HelloWorld();
-        System.out.println(h.factorial(num));
+        factorial h = new factorial();
+        System.out.println(h.fact(num));
     }
 }
-ssde

@@ -1,5 +1,6 @@
-class HelloWorld {
-    public void multiplication(int num,int count) {
+import java.util.*;
+class multiplication {
+    public void multi(int num,int count) {
         
         System.out.print("[");
         for(int i=1;i<=count;i++)
@@ -18,7 +19,7 @@ class HelloWorld {
         int a = sc.nextInt();
         System.out.print("Enter count:");
         int b = sc.nextInt();
-        HelloWorld wd = new HelloWorld();
-        wd.multiplication(a,b);
+        multiplication wd = new multiplication();
+        wd.multi(a,b);
     }
 }
